@@ -8,6 +8,6 @@ import "net/http"
 type RouteDefault struct {
 	URI          string
 	Method       string
-	Function     func(http.ResponseWriter, http.Request)
+	Function     func(http.ResponseWriter, *http.Request)
 	AuthRequired bool
 }
