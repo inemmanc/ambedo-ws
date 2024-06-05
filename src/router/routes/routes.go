@@ -16,6 +16,7 @@ type RouteDefault struct {
 	AuthRequired bool
 }
 
+// Insert all routes into the Router
 func Configure(r *mux.Router) *mux.Router {
 	var generalRoutes []RouteDefault
 	generalRoutes = append(generalRoutes, usersRoutes...)
