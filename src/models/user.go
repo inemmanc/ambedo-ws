@@ -4,7 +4,7 @@ import "time"
 
 // User Struct
 //
-// Represents the default user model
+// Represents the default API user model
 type User struct {
 	ID         uint64    `json:"id,omitempty"`
 	Username   string    `json:"username,omitempty"`

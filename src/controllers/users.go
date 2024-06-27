@@ -32,7 +32,7 @@ func UpdateUser(w http.ResponseWriter, r *http.Request) {
 
 // DeleteUser Controller
 //
-// Delete a specific user
+// Delete a specific user information in the database
 func DeleteUser(w http.ResponseWriter, r *http.Request) {
 
 }
